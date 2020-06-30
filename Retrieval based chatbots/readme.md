@@ -1,4 +1,5 @@
 Here I will create a Retrieval based chat bot with the help of Deep Neural network algorithm.
+(For clearer insights follow the pyhton notebook)
 
 # Preprocessing the data
 The data file is in JSON format so I used the json package to parse the JSON file into Python.
