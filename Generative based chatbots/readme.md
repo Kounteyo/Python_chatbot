@@ -54,8 +54,28 @@ Now a graphical user interface is created. For this,the Tkinter library is used 
 Anaconda or Google colab will not display the GUI properly. 
 So, better to use Spyder that comes with Anaconda. Don't forget to launch it in Tensorflow environment)
 
+# Folder structure
+Chatbot 2.py is the whole chatbot code as self executable python file. 
+Chatbot 2.ipynb is for better illustration (originally created in Google colab)
+
+The main model is saved as:
+model.h5 (this for skipping rigourous 2 hours of training)
+
+The encoder model is saved as: 
+The main tensorflow model: enc_model.h5
+TensorFlow lite version: enc_model.tflite
+
+The decoder model is saved as: 
+The main tensorflow model: dec_model.h5
+TensorFlow lite version: dec_model.tflite
+
 # Deployment or integration with any application or website
 
 To deploy it in any website or application we can easily do it using TensorFlow lite. The trained model is saved in the main folder of Generative Based chat bot.
 It can be also deployed using any API service in which the model needs to be hosted in a server and connect it via a API to get the response.
-The GUI needs to be configured while deployment. Feel free to leave a comment in case of deployment issues.
+The GUI needs to be configured while deployment. 
+Feel free to leave a comment in case of deployment issues.
+
+
+
+
