@@ -53,3 +53,9 @@ Now a graphical user interface is created. For this,the Tkinter library is used 
 
 Anaconda or Google colab will not display the GUI properly. 
 So, better to use Spyder that comes with Anaconda. Don't forget to launch it in Tensorflow environment)
+
+# Deployment or integration with any application or website
+
+To deploy it in any website or application we can easily do it using TensorFlow lite. The trained model is saved in the main folder of Generative Based chat bot.
+It can be also deployed using any API service in which the model needs to be hosted in a server and connect it via a API to get the response.
+The GUI needs to be configured while deployment. Feel free to leave a comment in case of deployment issues.
