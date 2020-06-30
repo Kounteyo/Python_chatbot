@@ -40,6 +40,7 @@ Here are some functions that contain all of the necessary processes for running 
 In our predict_class() function, we use an error threshold of 0.25 to avoid too much overfitting. This function will output a list of intents and the probabilities, their likelihood of matching the correct intent. The function getResponse() takes the list outputted and checks the json file and outputs the most response with the highest probability.
 Finally our chatbot_response() takes in a message (which will be inputted through our chatbot GUI), predicts the class with our predict_class() function, puts the output list into getResponse(), then outputs the response. What we get is the foundation of our chatbot. We can now tell the bot something, and it will then respond back.
 
+
 # Folder structure
 Here’s a quick breakdown of the components:
 train_chatbot.py — the code for reading in the natural language data into a training set and using a Keras sequential neural network to create a model
@@ -55,4 +56,7 @@ intents.json — abunch of JavaScript objects that lists different tags that cor
 chatbot_model.h5 — the actual model created by train_chatbot.py and used by chatgui.py
 
 # Deployment or integration with any application or website
-To deploy it in any website or application we can easily do it using TensorFlow lite. The trained model is saved in the main folder of Generative Based chat bot. It can be also deployed using any API service in which the model needs to be hosted in a server and connect it via a API to get the response. The GUI needs to be configured while deployment. Feel free to leave a comment in case of deployment issues.
+To deploy it in any website or application we can easily do it using TensorFlow lite. The trained model is saved in the main folder of Generative Based chat bot. It can be also deployed using any API service in which the model needs to be hosted in a server and connect it via a API to get the response. The GUI needs to be configured while deployment. 
+To create a custum GUI follow this tutorial:
+https://medium.com/@randerson112358/build-a-simple-chat-bot-graphical-user-interface-using-python-adf7bd558fc3
+Feel free to leave a comment in case of deployment issues.
