@@ -74,6 +74,8 @@ TensorFlow lite version: dec_model.tflite
 To deploy it in any website or application we can easily do it using TensorFlow lite. The trained model is saved in the main folder of Generative Based chat bot.
 It can be also deployed using any API service in which the model needs to be hosted in a server and connect it via a API to get the response.
 The GUI needs to be configured while deployment. 
+To create a custum GUI follow this tutorial:
+https://medium.com/@randerson112358/build-a-simple-chat-bot-graphical-user-interface-using-python-adf7bd558fc3
 Feel free to leave a comment in case of deployment issues.
 
 
