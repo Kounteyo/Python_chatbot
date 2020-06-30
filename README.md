@@ -30,4 +30,4 @@ https://github.com/tensorlayer/seq2seq-chatbot
 # Data:
 https://drive.google.com/drive/folders/1qKsD-9SQz4FHhyWAxduaf3kXSuiUmUJy?usp=sharing
 
-These data is originally taken from Kaggle and dataflair.
+These data are originally obtained from Kaggle and dataflair.
